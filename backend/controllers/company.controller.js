@@ -2,6 +2,7 @@ import { company as Company } from "../models/company.model.js";
 import getDataUri from "../utils/datauri.js"
 import cloudinary from "../utils/cloudinary.js"
 
+//Business Logic
 export const registerCompany = async (req, res) => {
     try {
         const { companyName } = req.body;
