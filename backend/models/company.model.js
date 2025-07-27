@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+//company model
 const companySchema = new mongoose.Schema({
     name:{
         type:String,
