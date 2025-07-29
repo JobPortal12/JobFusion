@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+//Job model
 const jobSchema = new mongoose.Schema(
   {
     title: {
