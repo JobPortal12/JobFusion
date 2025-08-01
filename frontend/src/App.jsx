@@ -84,7 +84,7 @@ function App() {
   return (
     <div>
       <RouterProvider router={appRouter} /> 
-      {/* provide router so that app can find for this route we to run this  */}
+      {/* provide router so that app can find for this route and we run this  */}
     </div>
   );
 }
