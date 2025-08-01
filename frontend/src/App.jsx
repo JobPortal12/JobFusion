@@ -78,10 +78,13 @@ const appRouter = createBrowserRouter([
     element: <ProtectedRoute><Applicants/></ProtectedRoute>
   }
 ]);
+ 
+
 function App() {
   return (
     <div>
-      <RouterProvider router={appRouter} />
+      <RouterProvider router={appRouter} /> 
+      {/* provide router so that app can find for this route we to run this  */}
     </div>
   );
 }
